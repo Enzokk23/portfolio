@@ -27,7 +27,7 @@ function Contact() {
   return (
     <section id="contact" className="section contact">
       <div className="section-container">
-        <p className="section-tag">// contact</p>
+       
 
         <div className="contact__layout">
           <div className="contact__info">
