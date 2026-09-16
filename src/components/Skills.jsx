@@ -21,7 +21,7 @@ function Skills() {
   return (
     <section id="skills" className="section skills">
       <div className="section-container">
-        <p className="section-tag">// skills</p>
+        
         <h2 className="section-heading">What I build with.</h2>
 
         <div className="skills__grid">
