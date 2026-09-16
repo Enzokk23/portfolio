@@ -2,7 +2,7 @@ function Education() {
   return (
     <section id="education" className="section education">
       <div className="section-container">
-        <p className="section-tag">// education</p>
+        
         <h2 className="section-heading">Education</h2>
 
         <div className="education__card">
