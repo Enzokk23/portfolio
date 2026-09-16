@@ -1290,3 +1290,222 @@ textarea {
     padding: 80px 0;
   }
 }
+/* =========================================
+   HERO RESPONSIVE FIX
+   ========================================= */
+
+@media (max-width: 899px) {
+  .hero {
+    padding: 72px 0 64px;
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .hero__content {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .hero__name {
+    font-size: clamp(2.5rem, 10vw, 4rem);
+  }
+
+  .hero__role {
+    font-size: clamp(1rem, 4vw, 1.2rem);
+  }
+
+  .hero__intro {
+    max-width: 600px;
+  }
+
+  .hero__visual {
+    width: 100%;
+    min-height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 28px;
+  }
+
+  .hero__code-chip {
+    position: relative;
+    top: auto;
+    left: auto;
+
+    align-self: center;
+    max-width: 100%;
+  }
+
+  .hero__frame {
+    width: min(340px, 70vw);
+  }
+
+  .hero__brackets {
+    top: auto;
+    bottom: 0;
+    height: min(340px, 70vw);
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: min(430px, 90vw);
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 560px) {
+  .section-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero {
+    padding: 56px 0 48px;
+    overflow: hidden;
+  }
+
+  .hero__inner {
+    gap: 48px;
+  }
+
+  .hero__kicker {
+    max-width: 100%;
+    font-size: 0.7rem;
+
+    padding: 7px 11px;
+    margin-bottom: 22px;
+
+    white-space: normal;
+  }
+
+  .hero__name {
+    font-size: clamp(2.35rem, 13vw, 3.3rem);
+    line-height: 1.05;
+    margin-bottom: 18px;
+  }
+
+  .hero__role {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .hero__role-divider {
+    margin: 0 3px;
+  }
+
+  .hero__intro {
+    width: 100%;
+    max-width: 100%;
+
+    font-size: 0.95rem;
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+  }
+
+  .hero__actions {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .hero__visual {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .hero__code-chip {
+    position: relative;
+
+    top: auto;
+    left: auto;
+
+    width: fit-content;
+    max-width: 100%;
+
+    padding: 8px 10px;
+
+    font-size: clamp(0.6rem, 3vw, 0.75rem);
+
+    white-space: nowrap;
+  }
+
+  .hero__frame {
+    width: min(280px, 75vw);
+  }
+
+  .hero__frame-ring {
+    inset: -10px;
+  }
+
+  .hero__brackets {
+    width: min(340px, 90vw);
+    height: min(280px, 75vw);
+
+    font-size: clamp(3rem, 15vw, 4.5rem);
+  }
+
+  .hero__scroll-cue {
+    display: none;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 360px) {
+  .section-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero {
+    padding-top: 48px;
+  }
+
+  .hero__name {
+    font-size: 2.25rem;
+  }
+
+  .hero__role {
+    font-size: 0.92rem;
+  }
+
+  .hero__intro {
+    font-size: 0.9rem;
+  }
+
+  .hero__frame {
+    width: min(250px, 74vw);
+  }
+
+  .hero__brackets {
+    width: min(300px, 90vw);
+    height: min(250px, 74vw);
+  }
+
+  .hero__code-chip {
+    font-size: 0.58rem;
+  }
+}
