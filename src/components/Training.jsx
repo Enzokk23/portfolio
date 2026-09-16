@@ -8,7 +8,7 @@ function Training() {
   return (
     <section id="training" className="section training">
       <div className="section-container">
-        <p className="section-tag">// training</p>
+        
         <h2 className="section-heading">Practical Training</h2>
 
         <div className="training__card">
